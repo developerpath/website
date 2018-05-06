@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+/*  border: 3px solid red;*/
+}
+.block {
+  float: left;
+/*  padding: 0 15px;*/
+/*  border: 3px solid yellow;*/
+}
+.wd12 {
+  width: 100%;
+}
+.wd9 {
+  width: 75%;
+}
+.wd8 {
+  width: 66.66%;
+}
+.wd6 {
+  width: 50%;
+}
+.wd5 {
+  width: 40%;
+}
+.wd4 {
+  width: 33.33%;
+}
+.wd3 {
+  width: 25%;
+}
+.wd2 {
+  width: 16.66%;
+}
+.wd1 {
+  width: 8.33%;
+}
+.row {
+  width: 100%;
+/*  border: 3px solid blue;*/
+}
+.clearfix {
+  content: "";
+  clear: both;
+  display: table;
+}
+.right {
+  float: right;
+}
+.t-right {
+  text-align: right;
+}
+.t-left {
+  text-align: left;
+}
+.t-center {
+  text-align: center;
+}
